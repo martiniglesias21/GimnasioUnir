@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Formulario Inscripcion Gym</title>
+   
+</head >
+<body class="body">
+    
+    
+    <section class="contenedorm"> 
+          <header>Formulario de Inscripcion</header>
+          <form action="#" class="form">
+            <div class="registro">
+                <label>Nombre </label>
+                <input type="text" placeholder="Escribe tu nombre completo" required>
+            </div>
+
+            <div class="registro">
+                <label>Apellidos </label>
+                <input type="text" placeholder="Escribe  tus apellidos " required>
+            </div>
+
+            <div class="genero-registro">
+                <h3>Genero</h3>
+                <div class="genero-opcion">
+                  <div class="genero">
+                      <input type="radio" id="check" name="genero">
+                      <label for="check-mujer">Mujer</label>
+                  </div>
+                  <div class="genero">
+                      <input type="radio" id="check" name="genero">
+                      <label for="check-hombre">Hombre</label>
+                  </div>
+                  
+                </div>
+              </div>
+
+            <div class="doble">
+                <div class="registro">
+                    <label>Movil</label>
+                    <input type="number" placeholder="Escribe tu numero de movil"  minlength="9" required>
+                </div>
+
+                <div class="registro">
+                    <label>Fecha de Nacimiento </label>
+                    <input type="date" required>    
+                </div>
+            </div>
+
+            <div class="registro">
+                <label>Direccion</label>
+                <input type="text" placeholder="Calle" required>  
+                <input type="text" placeholder="Poblacion" required>                
+                <input type="text" placeholder="Ciudad" required>          
+                <input type="number" placeholder="Codigo Postal" required>                     
+            </div>
+
+           
+
+            <div class="registro">
+                <label>Direccion Mail</label>
+                <input type="email" placeholder="Escribe tu direccion email" required>
+            </div>         
+
+          
+
+            <button>Registrate</button>
+          </form>
+    </section>
+
+</body>
+</html>

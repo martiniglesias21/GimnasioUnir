@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body2{
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.table2{
+    margin: auto;
+    margin-top: 100px;
+    height: 800px;
+    width: 1120px;
+    text-align: center;
+    background-color:black;
+    color: aliceblue;
+}
+table, tr, td{
+    border: 2px solid;
+    border-color: coral;
+}
+.caption{
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: coral;
+}
+td:hover{
+    color: coral;
+}
+img{
+    padding-top: 0%;
+    height: 120px;
+    width: 120px;
+}
